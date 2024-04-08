@@ -1,0 +1,82 @@
+.step1{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.aboutstep{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    padding-left: 0;
+}
+ul li{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li .img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    width: 50%;
+    height: 80%;
+}
+.img #colortypes{
+    width: 80%;
+    height: 80%;
+}
+.img #colorcounts{
+    width: 80%;
+    height: 80%;
+}
+.img #topping{
+    width: 80%;
+    height: 80%;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+.button{
+    width: 100%;
+    height: 30px;
+    gap: 30px   ;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+#checkoutbutton{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    color: black;
+}

@@ -1,0 +1,53 @@
+.Danhmucsanpham{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.tieude{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.tieude .customtieude{
+    color: rgb(178, 128, 66);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.Danhmucsanpham .hinhanhsanpham{
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+}
+.Danhmucsanpham .hinhanhsanpham ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+}
+.Danhmucsanpham .hinhanhsanpham ul li{
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+}
+.Danhmucsanpham .hinhanhsanpham ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.Danhmucsanpham .hinhanhsanpham ul li a img{
+    width: 100%;
+    height: 100%;
+}
